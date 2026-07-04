@@ -41,15 +41,33 @@ Zero experience required. You just need:
 
 ## 2. How to Run This Project
 
-Open **Terminal** and type these commands one by one (press Enter after each):
+### ⚠️ IMPORTANT: Your folder path has an apostrophe (RITESH's)
+
+Because of this, you should use the **VS Code terminal** instead of the Mac Terminal app — VS Code's terminal is ALREADY in the right folder.
+
+### Method A: Use VS Code's built-in terminal (EASIEST — use this)
+
+1. In VS Code, go to **Terminal → New Terminal** (or press `` Ctrl+` ``)
+2. The terminal will open in the correct folder automatically
+3. Just type:
+   ```bash
+   python3 Pro.py
+   ```
+
+### Method B: Use the Mac Terminal app
+
+If you must use the Mac Terminal app, copy-paste this EXACT command (all one line):
 
 ```bash
-# Step 1: Go to the folder where Pro.py is
-cd /Users/riteshkumarsrivastava/Documents/Documents\ -\ RITESH\'s\ MacBook\ Air/Developer/Python/PROJECTS
+cd "/Users/riteshkumarsrivastava/Documents/Documents - RITESH's MacBook Air/Developer/Python/PROJECTS"
+```
 
-# Step 2: Run the program
+Then type:
+```bash
 python3 Pro.py
 ```
+
+> 🟢 **The path is in double-quotes** which handles the apostrophe correctly.
 
 That's it. You'll see a menu. Choose options 1-5 and press Enter.
 
@@ -202,14 +220,13 @@ git add .gitignore
 # Commit the files (save a snapshot)
 git commit -m "Initial commit: Expense Tracker CLI app"
 
-# Tell Git where your GitHub repo is (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/expense-tracker.git
+# Tell Git where your GitHub repo is
+git remote add origin https://github.com/RITESH-KUMAR-SRIVASTAVA/expense-tracker.git
 
 # Push your code to GitHub
 git push -u origin main
 ```
 
-> ⚠️ Replace `YOUR_USERNAME` with your actual GitHub username.
 
 > 💡 If Git asks for a username/password, use a **Personal Access Token** (not your regular password):
 > 1. Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
@@ -217,7 +234,7 @@ git push -u origin main
 > 3. Paste the token when asked for password
 
 #### Step 4: Verify
-Go to `https://github.com/YOUR_USERNAME/expense-tracker` — you should see your files.
+Go to `https://github.com/RITESH-KUMAR-SRIVASTAVA/expense-tracker` — you should see your files.
 
 ### After making changes (adding features, fixing bugs):
 
@@ -238,7 +255,7 @@ A CLI app runs in **your terminal**. To let **other people use it online**, you 
 ### Option A: Run on Replit (easiest, free)
 1. Go to https://replit.com/~ — sign up (free)
 2. Click **"Create Repl"** → Choose **"Import from GitHub"**
-3. Paste your GitHub URL: `https://github.com/YOUR_USERNAME/expense-tracker`
+3. Paste your GitHub URL: `https://github.com/RITESH-KUMAR-SRIVASTAVA/expense-tracker`
 4. Click **"Import from GitHub"**
 5. Click **"Run"** button — it works instantly
 6. Share the URL with anyone
@@ -332,5 +349,3 @@ You have:
 **Your next step right now:** Open Terminal and run `python3 Pro.py`. Try adding 3 expenses and viewing the summary. That's all.
 
 Then push it to GitHub. Then try the To-Do List project.
-
-You're a programmer now. 🚀
