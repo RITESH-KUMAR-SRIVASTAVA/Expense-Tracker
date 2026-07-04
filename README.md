@@ -221,7 +221,7 @@ git add .gitignore
 git commit -m "Initial commit: Expense Tracker CLI app"
 
 # Tell Git where your GitHub repo is
-git remote add origin https://github.com/RITESH-KUMAR-SRIVASTAVA/expense-tracker.git
+git remote add origin https://github.com/RITESH-KUMAR-SRIVASTAVA/Expense-Tracker.git
 
 # Push your code to GitHub
 git push -u origin main
@@ -234,7 +234,7 @@ git push -u origin main
 > 3. Paste the token when asked for password
 
 #### Step 4: Verify
-Go to `https://github.com/RITESH-KUMAR-SRIVASTAVA/expense-tracker` — you should see your files.
+Go to `https://github.com/RITESH-KUMAR-SRIVASTAVA/Expense-Tracker` — you should see your files.
 
 ### After making changes (adding features, fixing bugs):
 
@@ -255,7 +255,7 @@ A CLI app runs in **your terminal**. To let **other people use it online**, you 
 ### Option A: Run on Replit (easiest, free)
 1. Go to https://replit.com/~ — sign up (free)
 2. Click **"Create Repl"** → Choose **"Import from GitHub"**
-3. Paste your GitHub URL: `https://github.com/RITESH-KUMAR-SRIVASTAVA/expense-tracker`
+3. Paste your GitHub URL: `https://github.com/RITESH-KUMAR-SRIVASTAVA/Expense-Tracker`
 4. Click **"Import from GitHub"**
 5. Click **"Run"** button — it works instantly
 6. Share the URL with anyone
